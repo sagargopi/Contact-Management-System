@@ -2,7 +2,6 @@
 
 A modern, full-stack contact management system built with React, Node.js, and MongoDB. This application provides a clean, intuitive interface for managing contacts with features like sorting, pagination, and real-time validation.
 
-![Contact Management CRM](https://images.unsplash.com/photo-1553484771-371a605b060b?auto=format&fit=crop&q=80&w=1200)
 
 ## Features
 
@@ -28,7 +27,6 @@ A modern, full-stack contact management system built with React, Node.js, and Mo
   - Node.js
   - Express
   - MongoDB with Mongoose
-  - Zod for validation
 
 ## Getting Started
 
@@ -66,25 +64,6 @@ npm run server
 npm run dev
 \`\`\`
 
-## Project Structure
-
-\`\`\`
-contact-management-crm/
-├── src/
-│   ├── components/          # React components
-│   │   ├── ContactForm.tsx
-│   │   └── ContactTable.tsx
-│   ├── server/             # Backend code
-│   │   ├── models/         # MongoDB models
-│   │   └── index.ts        # Express server
-│   ├── services/           # API services
-│   ├── types/              # TypeScript types
-│   └── App.tsx             # Main application component
-├── .env                    # Environment variables
-├── package.json
-└── README.md
-\`\`\`
-
 ## API Endpoints
 
 - \`GET /api/contacts\`: Fetch all contacts
@@ -92,7 +71,7 @@ contact-management-crm/
 - \`PUT /api/contacts/:id\`: Update an existing contact
 - \`DELETE /api/contacts/:id\`: Delete a contact
 
-## Features in Detail
+## Features
 
 ### Contact Management
 
@@ -102,32 +81,6 @@ contact-management-crm/
 - Delete unwanted contacts
 - Pagination for large contact lists
 
-### Data Validation
-
-- Frontend form validation
-- Backend API validation using Zod
-- Email format verification
-- Required field checking
-
-### User Interface
-
-- Clean, modern design
-- Responsive layout
-- Loading states
-- Error handling
-- Success notifications
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (\`git checkout -b feature/AmazingFeature\`)
-3. Commit your changes (\`git commit -m 'Add some AmazingFeature'\`)
-4. Push to the branch (\`git push origin feature/AmazingFeature\`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
